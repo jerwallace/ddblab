@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import {Product} from './product';
 
-const API_URL = '<INSERT_URL_HERE>s';
+const API_URL = '<INSERT_URL_HERE>';
 const styles = {
   container: {
     margin: '1rem'
