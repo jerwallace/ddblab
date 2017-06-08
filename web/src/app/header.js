@@ -4,7 +4,7 @@ const styles = {
   header: {
     display: 'flex',
     alignItems: 'center',
-    backgroundColor: '#1f1f1f'
+    backgroundColor: '#f1f1f1'
   },
   title: {
     flex: 1,
@@ -15,7 +15,7 @@ const styles = {
     flex: 1,
     textAlign: 'right',
     margin: '1rem',
-    color: 'white'
+    color: '#333'
   }
 };
 
@@ -25,7 +25,8 @@ export class Header extends Component {
       <header style={styles.header}>
         <p style={styles.title}>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            Daintree
+            <img src="static/daintree-logo.png" height="40"/>
+            <i className="fa fa-pagelines" aria-hidden="true"/>
           </a>
         </p>
         <p style={styles.date}>

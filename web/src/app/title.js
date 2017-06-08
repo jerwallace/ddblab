@@ -6,7 +6,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     padding: '1rem',
-    backgroundColor: '#cf4646',
+    backgroundImage: 'url("https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg")',
     color: 'white'
   },
   h1: {
@@ -30,14 +30,7 @@ const styles = {
 export class Title extends Component {
   render() {
     return (
-      <div style={styles.title}>
-        <h1 style={styles.h1}>&apos;Allo, &apos;Allo!</h1>
-        <div>
-          <img style={styles.logo} src="http://fountainjs.io/assets/imgs/yeoman.png"/>
-          <img style={styles.logo} src="http://fountainjs.io/assets/imgs/fountain.png"/>
-        </div>
-        <h2 style={styles.h2}>Always a pleasure scaffolding your apps.</h2>
-      </div>
+      <div className="hero-image" style={styles.title}/>
     );
   }
 }

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import {Product} from './product';
 
-const API_URL = '<INSERT_URL_HERE>';
+const API_URL = 'https://im3ndpibd1.execute-api.us-east-1.amazonaws.com/dev/ProductService?TableName=ProductCatalogNew';
 const styles = {
   container: {
     margin: '1rem'

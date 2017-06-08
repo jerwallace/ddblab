@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Header} from './header';
+import {Title} from './title';
 import {Products} from './products/products';
 import {Footer} from './footer';
 
@@ -22,6 +23,7 @@ export class Main extends Component {
       <div style={styles.container}>
         <Header/>
         <main style={styles.main}>
+          <Title/>
           <Products/>
         </main>
         <Footer/>

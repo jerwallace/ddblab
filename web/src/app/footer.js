@@ -4,7 +4,7 @@ const styles = {
   footer: {
     padding: '0.5rem',
     fontSize: '1rem',
-    backgroundColor: '#1f1f1f',
+    backgroundColor: '#444',
     textAlign: 'center',
     color: 'white'
   }
