@@ -6,7 +6,7 @@ In this lab we will create a simple product API using DynamoDB and AWS Lambda.
 
 First, make sure the AWS CLI is installed on your machine and you have configured the default profile to point to the account you will be using in todays lab.
 
-You can do this in the file: ~/.aws/credentials on a mac
+[Follow the guide here to install on Windows](http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html).
 
 ## Create the DynamoDB Table
 
