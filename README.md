@@ -68,6 +68,9 @@ aws dynamodb scan --table-name ProductCatalog --return-consumed-capacity TOTAL
 - Run a few queries via the AWS CLI tool. In particular, add the flag "--return-consumed-capacity" to see how many Read or Write units are consumed during your action. Try a query operation and note the difference from a scan operation.
   - [Working with Queries](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Query.html)
   - [Working with Items](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html)
+- Build out one of these example applications:
+  - [Pet Store](https://github.com/awslabs/api-gateway-secure-pet-store)
+  - [Sporting Events API](https://github.com/awslabs/lambda-java8-dynamodb)
 
 ## Resources
 
