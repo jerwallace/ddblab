@@ -65,7 +65,7 @@ aws dynamodb scan --table-name ProductCatalog --return-consumed-capacity TOTAL
 
 - Once you have completed this section, run the same load commands for some other datasets [here](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SampleData.CreateTables.html).
 - Try setting up a **Global Secondary Index** on the **ProductCatalog** table
-- Run a few queries via the AWS CLI tool. In particular, add the flag "--return-consumed-capacity" to see how many Read or Write units are consumed during your action. Try a scan and a query and note the difference.
+- Run a few queries via the AWS CLI tool. In particular, add the flag "--return-consumed-capacity" to see how many Read or Write units are consumed during your action. Try a query operation and note the difference from a scan operation.
   - [Working with Queries](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Query.html)
   - [Working with Items](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html)
 
