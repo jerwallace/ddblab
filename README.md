@@ -55,7 +55,10 @@ First, make sure the AWS CLI is installed on your machine and you have configure
 
 ## Test the endpoint
 
-The default configuration of the endpoint is to run a SCAN operation on the DynamoDB table. Run a GET request with the parameter **https://API_GATEWAY_URL_HERE?TableName=ProductCatalog**. It will return the entire list of products.
+The default configuration of the endpoint is to run a SCAN operation on the DynamoDB table. Run a GET request with the parameter **https://API_GATEWAY_URL_HERE?TableName=ProductCatalog**. It will return the entire list of products. Note this for the web application below.
+
+It should look something like this:
+https://im3fisdjbd1.execute-api.us-east-1.amazonaws.com/dev/ProductService?TableName=ProductCatalog
 
 Next, lets see how much read capacity is consumed with each operation. Why is it the value that is represented?
 ```
