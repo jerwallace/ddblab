@@ -25,7 +25,7 @@ You can do this in the file: ~/.aws/credentials on a mac
 5. Run the following command in the directory:
 
     ```
-    aws dynamodb batch-write-item --request-items file://ProductCatalog.json
+    aws dynamodb batch-write-item --request-items file://ProductCatalog.json --return-consumed-capacity TOTAL
     ```
 ## Create the Lambda function.
 
